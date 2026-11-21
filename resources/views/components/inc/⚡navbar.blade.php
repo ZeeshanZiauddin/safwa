@@ -8,8 +8,8 @@ new class extends Component
 };
 ?>
 
-<header class="main-navbar " id="mainNavbar">
-    <div class="max-w-7xl mx-auto px-5">
+<header class="main-navbar flex justify-center " id="mainNavbar">
+    <div class="min-w-7xl mx-auto px-5">
         <div class="navbar-inner">
             <!-- LOGO -->
             <a href="index.html" class="logo-wrapper">

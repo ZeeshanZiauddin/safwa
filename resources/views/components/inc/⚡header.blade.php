@@ -7,8 +7,8 @@ new class extends Component
     //
 };
 ?>
-<div class="top-bar">
-    <div class="max-w-7xl mx-auto px-5">
+<div class="top-bar flex justify-center">
+    <div class="min-w-7xl mx-auto px-5">
         <div class="top-bar-inner">
 
             <div class="top-info">

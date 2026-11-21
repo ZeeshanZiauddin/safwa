@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="bg-yellow-900">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
     <meta charset="utf-8">
@@ -51,14 +51,21 @@
     @livewireStyles
 </head>
 
-<body class="">
+<body>
+    @persist('header')
     <livewire:inc.header />
+    @endpersist
+
+
     <div class="topbar-spacer"></div>
     <livewire:inc.navbar />
 
     {{ $slot }}
 
+
+    @persist('footer')
     <livewire:inc.footer />
+    @endpersist
 
     @livewireScripts
 </body>
