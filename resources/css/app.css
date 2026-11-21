@@ -4695,3 +4695,7 @@ body {
     background: #191919;
     transform: translateY(-2px);
 }
+
+section {
+    @apply flex items-center justify-center gap-12;
+}
