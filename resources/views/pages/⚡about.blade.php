@@ -9,5 +9,8 @@ new class extends Component
 ?>
 
 <div>
-    {{-- Do what you can, with what you have, where you are. - Theodore Roosevelt --}}
+  <livewire:sections.about.hero />
+  <livewire:sections.about.welcom-safwa />
+
+
 </div>

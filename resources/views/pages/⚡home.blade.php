@@ -20,5 +20,4 @@ new class extends Component {
     <livewire:sections.home.why_us />
     <livewire:sections.home.reviews />
     <livewire:sections.home.cta />
-
 </div>
