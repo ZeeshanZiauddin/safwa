@@ -13,7 +13,7 @@ new class extends Component {
 
             <div class="reveal">
                 <span class="section-label">WELCOME TO SAFWA</span>
-
+                
                 <h2 class="section-title mt-5">
                     More Than Travel,
                     <span class="gold-text">A Journey Of Trust.</span>

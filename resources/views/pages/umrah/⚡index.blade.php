@@ -9,5 +9,11 @@ new class extends Component
 ?>
 
 <div>
-    {{-- Walk as if you are kissing the Earth with your feet. - Thich Nhat Hanh --}}
+    <livewire:sections.umrah.hero />
+    <livewire:sections.umrah.benfits />
+    <livewire:sections.umrah.packages />
+    <livewire:sections.umrah.destination />
+    <livewire:sections.umrah.booking_cards />
+    <livewire:sections.umrah.faqs />
+    <livewire:sections.umrah.cta />
 </div>

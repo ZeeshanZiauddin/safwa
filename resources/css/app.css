@@ -45,12 +45,6 @@
    GLOBAL STYLING
 ========================================= */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -4724,6 +4718,8 @@ body {
     }
 }
 
-section {
-    @apply flex items-center justify-center gap-12;
-}
+
+
+
+
+/* umralist css */

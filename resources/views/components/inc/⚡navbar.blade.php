@@ -2,8 +2,7 @@
 
 use Livewire\Component;
 
-new class extends Component
-{
+new class extends Component {
     //
 };
 ?>
@@ -13,17 +12,17 @@ new class extends Component
         <div class="navbar-inner">
             <!-- LOGO -->
             <a href="index.html" class="logo-wrapper">
-                <img class="header-logo" src="{{asset('logo.png')}}" alt="Safwa Travel Logo">
+                <img class="header-logo" src="{{ asset('logo.png') }}" alt="Safwa Travel Logo">
             </a>
             <!-- NAVIGATION -->
             <nav class="nav-links" id="navLinks">
 
-                <a wire:navigate.hover href="{{route('home') }}" class="active">Home</a>
-                <a wire:navigate.hover href="{{route('about') }}">About</a>
-                <a wire:navigate.hover href="{{route('umrah.show') }}">Umrah</a>
-                <a wire:navigate.hover href="{{route('umrah.list') }}">Umrah List</a>
-                <a wire:navigate.hover href="{{route('umrah.list') }}">Policies</a>
-                <a wire:navigate.hover href="{{route('contact') }}">Contact</a>
+                <a wire:navigate.hover href="{{ route('home') }}" class="active">Home</a>
+                <a wire:navigate.hover href="{{ route('about') }}">About</a>
+                <a wire:navigate.hover href="{{ route('umrah.show') }}">Umrah</a>
+                <a wire:navigate.hover href="{{ route('umrah.list') }}">Umrah List</a>
+                <a wire:navigate.hover href="{{ route('policies.list') }}">Policies</a>
+                <a wire:navigate.hover href="{{ route('contact') }}">Contact</a>
             </nav>
 
             <!-- NAV ACTIONS -->
