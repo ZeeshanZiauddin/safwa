@@ -3629,18 +3629,16 @@ html {
 .policy-hero-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(
-        135deg,
-        rgba(198, 161, 91, 0.15),
-        transparent 60%
-    );
+      background: linear-gradient(115deg, rgba(12, 12, 12, 0.96), rgba(25, 23, 19, 0.82)), radial-gradient( circle at 80% 25%, rgba(200, 164, 93, 0.35), transparent 35% ), #171717;
+
+
 }
 
 .policy-hero-content {
     position: relative;
     z-index: 2;
     max-width: 750px;
-    padding: 70px 20px;
+    padding: 145px 20px;
 }
 
 .policy-tag {
@@ -4234,12 +4232,9 @@ html {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 60px 20px;
-    background:
-        linear-gradient(rgba(15, 15, 15, 0.84), rgba(15, 15, 15, 0.84)),
-        url("/images/policies-banner.jpg") center/cover no-repeat;
+    padding: 140px 20px;
+    background: linear-gradient(115deg, rgba(12, 12, 12, 0.96), rgba(25, 23, 19, 0.82)), radial-gradient( circle at 80% 25%, rgba(200, 164, 93, 0.35), transparent 35% ), #171717;
 }
-
 .contact-hero-content > span,
 .contact-heading > span,
 .contact-map-heading > span {
@@ -4646,10 +4641,10 @@ body {
 }
 
 .contact-hero {
-    background:
+    /* background:
         linear-gradient(rgba(15, 15, 15, 0.88), rgba(15, 15, 15, 0.78)),
         url("https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=85&w=2000")
-            center/cover no-repeat;
+            center/cover no-repeat; */
 }
 
 .contact-field {
@@ -4683,6 +4678,7 @@ body {
 
 .contact-btn {
     transition: 0.3s ease;
+    background-color: var(--safwa-gold-light);
 }
 
 .contact-btn:hover {
@@ -4717,9 +4713,7 @@ body {
         transition: none !important;
     }
 }
-
-
-
-
-
+.left-contact-section{
+    background-color: var(--safwa-black);
+}
 /* umralist css */

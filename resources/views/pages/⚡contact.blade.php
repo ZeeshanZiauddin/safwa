@@ -9,5 +9,9 @@ new class extends Component
 ?>
 
 <div>
-    {{-- Nothing worth having comes easy. - Theodore Roosevelt --}}
+   <livewire:sections.contact.hero />
+   <livewire:sections.contact.get_in_touch />
+   <livewire:sections.contact.map-section />
+
+
 </div>
